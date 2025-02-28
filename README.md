@@ -16,8 +16,8 @@ Study neovim plugin config.
 
 # command
 
-- `PRF function_name`: run test functions
-- `PRO option_name`: run test option
+- `:PRF function_name`: run test functions
+- `:PRO option_name`: run test option
 
 # Test
 
