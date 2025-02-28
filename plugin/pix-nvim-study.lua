@@ -1,0 +1,8 @@
+local functions = require("pix-nvim-study.functions")
+local opt = require("pix-nvim-study.opt")
+vim.api.nvim_create_user_command("PRF", function(args)
+	functions.run_function(args.args)
+end, { nargs = 1 })
+vim.api.nvim_create_user_command("PRO", function(args)
+	opt.run_opt(args.args)
+end, { nargs = 1 })
